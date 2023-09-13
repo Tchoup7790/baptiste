@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "League Spartan";
+    src: url("/public/assets/fonts/LeagueSpartan-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Lexend Deca";
+    src: url("/public/assets/fonts/LexendDeca-VariableFont_wght.ttf");
+}
+
+
+@import "./utils/colors";
+@import "./utils/mixin";
+@import "./utils/keyframes";
+
+@import "./components/link";
+
+@import "./bases/typo";
+
+@import "./layout/list";
+@import "./layout/navBar";

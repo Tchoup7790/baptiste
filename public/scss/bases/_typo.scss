@@ -1,0 +1,20 @@
+html{
+    color: $color-black;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+h1{
+    color: $color-primary;
+    text-shadow: 3px 5px 0px $color-black-05;
+    font-family: League Spartan;
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
