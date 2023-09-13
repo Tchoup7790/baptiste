@@ -1,0 +1,16 @@
+{
+  "name": "baptiste.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "source": "index.html",
+  "repository": "https://github.com/Tchoup7790/baptiste.github.io.git",
+  "author": "Baptiste <113362872+Tchoup7790@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "@types/node": "^20.6.0"
+  }
+}
