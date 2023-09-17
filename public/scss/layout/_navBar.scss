@@ -20,10 +20,13 @@
             padding: .7rem;
             display: flex;
             flex-direction: column;
-            a{
+            cursor:default;
+	    p{
                 position: relative;
                 display: flex;
+            	cursor:default;
                 height: 2rem;
+		font-size: 1rem;
                 justify-content: space-between;
                 align-items: center;
                 overflow: hidden;
