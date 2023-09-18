@@ -3,16 +3,16 @@
 	align-items:center;
 	justify-content:center;
 	height:fit-content;
+	width: 100%;
 	&__article{
-		display:flex;
-		flex-direction:column;
-		justify-content:space-between;
-		align-items:center;
-		&__text1{
-			color: $color-third;
-		}
-		&__text2{
-			color: $color-secondary;
+		padding: 1.7rem O;
+		&__section{
+			&__text1{
+				color: $color-third;
+			}
+			&__text2{
+				color: $color-secondary;
+			}
 		}
 	}
 }

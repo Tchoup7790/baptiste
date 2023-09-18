@@ -1,0 +1,15 @@
+article{
+    display:flex;
+	height: 90%;
+	padding: 1.7rem 0;
+	justify-content:center;
+	flex-direction:column;
+	gap:2rem;
+	section{
+		height: 50vh;
+		display:flex;
+		flex-direction: column;
+		justify-content:space-between;
+		align-items: center;
+    }
+}
