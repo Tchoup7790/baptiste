@@ -3,3 +3,9 @@ a{
     font-style: normal;
     text-decoration: none; 
 }
+
+@media (prefers-color-scheme: dark){
+	a{
+		color: $color-white;
+	}
+}

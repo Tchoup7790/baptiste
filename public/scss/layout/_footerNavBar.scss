@@ -1,9 +1,11 @@
-.navBar{
-    position: relative;
-    display: flex;    
+.footerNavBar{
+    position: absolute;
+    display: flex;
+    z-index:2;    
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    bottom:0;
     &__ul{
         position: relative;
         display: flex;

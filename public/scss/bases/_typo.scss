@@ -18,3 +18,14 @@ h1{
     font-weight: 800;
     text-transform: uppercase;
 }
+
+
+
+@media (prefers-color-scheme: dark){
+	html{
+		color:$color-white;
+	}
+	h1{
+		text-shadow: 3px 5px 0px $color-white-05;
+	}
+}

@@ -2,11 +2,27 @@
 	display:flex;
 	align-items:center;
 	justify-content:center;
-	height:100%;
+	height:fit-content;
 	&__article{
 		display:flex;
 		flex-direction:column;
 		justify-content:space-between;
 		align-items:center;
+		&__text1{
+			color: $color-third;
+		}
+		&__text2{
+			color: $color-secondary;
+		}
+	}
+}
+
+@media (prefers-color-scheme:dark){
+	.index__main{
+		&__article{
+			&__text1{
+				color:$color-primary;
+			}
+		}
 	}
 }
