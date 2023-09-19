@@ -5,8 +5,10 @@
 	height:fit-content;
 	width: 100%;
 	&__article{
-		padding: 1.7rem O;
+		padding: 2rem O;
+		gap: 10%;
 		&__section{
+			height: 50vh;
 			&__text1{
 				color: $color-third;
 			}

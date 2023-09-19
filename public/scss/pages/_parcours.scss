@@ -5,11 +5,16 @@
 		justify-content:center;
 		width:100%;
 		height:fit-content;
-		&__article__section{
-			p{
-				text-align:justify;	
-				margin:0;
-				padding:0;
+		&__article{
+			padding: 1.7rem 0;
+			gap: 15%;
+			&__section{
+				height: 50vh;
+				p{
+					text-align:justify;	
+					margin:0;
+					padding:0;
+				}
 			}
 		}
 	}
