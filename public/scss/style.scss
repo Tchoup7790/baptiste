@@ -14,15 +14,18 @@
 @import "./utils/keyframes";
 
 @import "./components/link";
+@import "./components/article";
+@import "./components/section";
 
 @import "./bases/typo";
 @import "./bases/base";
 
 @import "./layout/list";
 @import "./layout/footerNavBar";
-@import "./layout/article";
 @import "./layout/main";
+@import "./layout/sectionDiv";
 
 @import "./pages/index";
 @import "./pages/parcours";
 @import "./pages/contact";
+@import "./pages/realisations"; 
