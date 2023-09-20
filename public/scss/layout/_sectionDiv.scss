@@ -59,3 +59,13 @@
         background-color: $color-primary;
     }
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .realisations__main__div{
+        flex-direction: row;
+        width: 80vw;
+        &__text{
+            width: 40rem;
+        }
+    }
+}

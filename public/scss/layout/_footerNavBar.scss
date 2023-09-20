@@ -70,3 +70,12 @@
         }
     }
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .footerNavBar{
+        transform: translateY(-95%);
+        &__ul__li{
+            height: 4rem;
+        }
+    }
+}
