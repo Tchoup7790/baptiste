@@ -3,8 +3,9 @@
     flex-direction: column;
     align-items: center;
     width: 20rem;
-    height: 30rem;
-    justify-content: space-between;
+    height: 90vh;
+    gap: 6vh;
+    justify-content: center;
     &__title{
         display: flex;
         align-items: flex-start;
@@ -49,5 +50,12 @@
         text-align:justify ;
         color: $color-white;
         background-color:$color-third;
+    }
+}
+
+
+@media (prefers-color-scheme:dark){
+    .realisations__main__div__text{
+        background-color: $color-primary;
     }
 }

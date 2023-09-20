@@ -14,7 +14,20 @@
 					text-align:justify;	
 					margin:0;
 					padding:0;
+					span{
+						color: $color-third;
+					}
 				}
+			}
+		}
+	}
+}
+  
+@media (prefers-color-scheme:dark){
+	.parcours__main__article__section{
+		p{
+			span{
+				color:$color-primary;
 			}
 		}
 	}

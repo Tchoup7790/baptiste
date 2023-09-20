@@ -21,7 +21,7 @@
 
 @media (prefers-color-scheme:dark){
 	.index__main{
-		&__article{
+		&__article__section{
 			&__text1{
 				color:$color-primary;
 			}
