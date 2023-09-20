@@ -2,7 +2,7 @@ html{
     color: $color-black;
     text-align: center;
     font-family: Lexend Deca;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 700;
 }
 
@@ -40,4 +40,16 @@ h3{
 	h3{
 		text-shadow: 2px 3px 0px $color-white-05;
 	}
+}
+
+@media screen and (min-width: 568px) and (max-width: 769px) { 
+    html{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    html{
+        font-size: 18px;
+    }
 }
