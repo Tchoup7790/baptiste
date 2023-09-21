@@ -17,14 +17,17 @@
 @import "./components/article";
 @import "./components/section";
 @import "./components/button";
+@import "./components/headerNavBar";
+@import "./components/footerNavBar";
 
 @import "./bases/typo";
 @import "./bases/base";
 
 @import "./layout/list";
-@import "./layout/footerNavBar";
 @import "./layout/main";
 @import "./layout/sectionDiv";
+@import "./layout/linkNav";
+@import "./layout/navBar";
 
 @import "./pages/index";
 @import "./pages/parcours";

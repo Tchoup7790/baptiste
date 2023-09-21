@@ -1,0 +1,46 @@
+.footerNavBar{
+    position: fixed;
+    display: flex;
+    z-index:2;    
+    flex-direction: column;
+    background-color: $color-white;
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    top: 100vh;
+    transform: translateY(-80%);
+}
+
+@media (prefers-color-scheme: dark){
+    .footerNavBar{
+        background-color: $color-black;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .footerNavBar{
+        transform: translateY(-90%);
+        &__ul__li{
+            height: 5.4rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1279px) {
+    .footerNavBar{
+        transform: translateY(-95%);
+        &__ul__li{
+            height: 4rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1080px){ 
+    .footerNavBar{
+        display: none;
+    }
+}

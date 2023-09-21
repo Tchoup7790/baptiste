@@ -1,0 +1,19 @@
+.headerNavBar__a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: 0 2rem;
+    img{
+        width: 2rem;
+        height: 2rem;
+    }
+    h3{
+        font-size: 1.2rem;
+        font-family: "Lexend Deca";
+        color: $color-black;
+        margin: 0;
+        padding: 0;
+        text-shadow: none;
+    }
+}
