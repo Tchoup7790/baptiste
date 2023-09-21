@@ -1,0 +1,18 @@
+button{
+    display: none;
+    border: none;
+    padding: .7rem 3rem;
+    background-color: $color-third;
+    box-shadow: 2px 5px 4px $color-secondary-05;
+    border-radius: 7px;
+    a{
+        color: $color-white;
+        font-size: .99rem;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    button{
+        display: flex;
+    }
+}
