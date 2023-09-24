@@ -17,3 +17,11 @@
         text-shadow: none;
     }
 }
+
+@media (prefers-color-scheme:dark){
+    .headerNavBar__a{
+        h3{
+            color: $color-white;
+        }
+    }
+}

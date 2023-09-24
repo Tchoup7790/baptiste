@@ -34,3 +34,9 @@
 		display: none;
 	}
 }
+
+@media screen and (min-width: 1280px){
+	.index__main{
+		height: 100%;
+	}
+}
