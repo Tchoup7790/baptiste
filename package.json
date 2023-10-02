@@ -1,20 +1,21 @@
 {
   "name": "baptiste.github.io",
   "version": "1.0.0",
-  "source": "index.html",
+  "source": "/index.html",
   "repository": "https://github.com/Tchoup7790/baptiste.github.io.git",
   "author": "Baptiste <113362872+Tchoup7790@users.noreply.github.com>",
   "license": "MIT",
-  "scripts": {
+  "scripts":{ 
     "start": "parcel",
-    "build": "parcel build"
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./index.html --dist-dir build"
   },
   "dependencies": {
     "@types/node": "^20.6.0",
-    "parcel": "^2.9.3"
+    "parcel": "^2.9.3",
+    "scss": "^0.2.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "2.9.3"
-  },
-  "main": "index.js"
+  }
 }
