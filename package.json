@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts":{ 
     "start": "parcel",
-    "prebuild": "npx rimraf build",
-    "build": "parcel build --public-url ./ ./index.html --dist-dir build"
+    "prebuild": "npx rimraf docs",
+    "build": "parcel build --public-url ./ ./index.html --dist-dir docs"
   },
   "dependencies": {
     "@types/node": "^20.6.0",
